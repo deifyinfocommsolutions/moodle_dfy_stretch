@@ -31,6 +31,15 @@
                 "example": "example.com"
             },
             {
+                "name": "path",
+                "type": "path",
+                "ask": {
+                    "en": "Choose a path for Moodle"
+                },
+                "example": "/moodle",
+                "default": "/lms"
+            },
+            {
                 "name": "is_public",
                 "type": "boolean",
                 "ask": {
