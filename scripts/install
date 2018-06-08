@@ -83,10 +83,10 @@ then
 	db_user=$(ynh_sanitize_dbid $appname)dbuser
 	ynh_app_setting_set $app db_name $db_name
 	ynh_mysql_setup_db $db_user $db_name
-	echo "DB_NAME= $db_name" | tee "$final_path/db_info.txt"
-	echo "DB_USER= $db_user" | tee -a "$final_path/db_info.txt"
-	echo "DB_PASSWORD= $db_pwd" | tee -a "$final_path/db_info.txt"
-	echo "DB_HOST= localhost" | tee -a "$final_path/db_info.txt"
+	#echo "DB_NAME= $db_name" | tee "$path/db_info.txt"
+	#echo "DB_USER= $db_user" | tee -a "$path/db_info.txt"
+	#echo "DB_PASSWORD= $db_pwd" | tee -a "$path/db_info.txt"
+	#echo "DB_HOST= localhost" | tee -a "$path/db_info.txt"
 fi
 
 
