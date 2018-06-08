@@ -1,5 +1,4 @@
-# Moodle app for YunoHost
-[![Install Moodle with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=Moodle)<br><br>
+# Deify Infocomm Solutions Custom Integration for LMS app
 
 
 Moodle - the world's open source learning platform
