@@ -9,6 +9,8 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+ENV DEBIAN_FRONTEND noninteractive
+
 #=================================================
 # MANAGE SCRIPT FAILURE
 #=================================================
