@@ -107,6 +107,14 @@ cp  ../conf/config.php $final_path/.
 ynh_add_nginx_config
 
 #=================================================
+# PHP-FPM CONFIGURATION
+#=================================================
+
+# Create a dedicated php-fpm config
+#ynh_add_fpm_config
+ynh_add_php7.1-fpm_config
+
+#=================================================
 # CREATE DEDICATED USER
 #=================================================
 
