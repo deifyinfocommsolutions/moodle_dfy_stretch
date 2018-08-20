@@ -9,8 +9,6 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
-ENV DEBIAN_FRONTEND noninteractive
-
 #=================================================
 # MANAGE SCRIPT FAILURE
 #=================================================
@@ -114,7 +112,7 @@ ynh_add_nginx_config
 
 # Create a dedicated php-fpm config
 #ynh_add_fpm_config
-ynh_add_php7.1-fpm_config
+ynh_add_php71_fpm_config
 
 #=================================================
 # CREATE DEDICATED USER
