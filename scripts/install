@@ -122,13 +122,6 @@ ynh_add_php7.1-fpm_config
 ynh_system_user_create $app
 
 #=================================================
-# PHP-FPM CONFIGURATION
-#=================================================
-
-# Create a dedicated php-fpm config
-ynh_add_php7.1-fpm_config
-
-#=================================================
 # SPECIFIC SETUP
 #=================================================
 # SETUP config file
