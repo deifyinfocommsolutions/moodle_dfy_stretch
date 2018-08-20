@@ -36,7 +36,7 @@ ynh_remove_php7 () {
 # Create a dedicated php-fpm config for php7.1
 #
 # usage: ynh_add_fpm_config
-ynh_add_php7.1-fpm_config () {
+ynh_add_php71_fpm_config () {
 	# Configure PHP-FPM 7.1 by default
 	local fpm_config_dir="/etc/php/7.1/fpm"
 	local fpm_service="php7.1-fpm"
@@ -89,7 +89,7 @@ ynh_add_php7.1-fpm_config_OLD () {
 # Remove the dedicated php-fpm config for php7.1
 #
 # usage: ynh_remove_fpm_config
-ynh_remove_php7.1-fpm_config () {
+ynh_remove_php71_fpm_config () {
 	local fpm_config_dir=$(ynh_app_setting_get $app fpm_config_dir)
 	local fpm_service=$(ynh_app_setting_get $app fpm_service)
 	# Assume php version 5 if not set
